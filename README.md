@@ -19,6 +19,24 @@ The score is a transparent heuristic based on selected text patterns. It is not 
 - Plotly charts and recent analysis metrics
 - Downloadable PDF report
 
+## Screenshots
+
+| Home | Analyze News |
+|:---:|:---:|
+| ![Home page](screenshots/home.png) | ![Analyze News form](screenshots/analyze-news.png) |
+
+**Analysis results**
+
+![Analysis results](screenshots/analysis-results.png)
+
+**Dashboard**
+
+![Dashboard](screenshots/dashboard.png)
+
+**Analysis history**
+
+![Analysis history](screenshots/analysis-history.png)
+
 ## Requirements
 
 - Python 3.10 or newer recommended
@@ -85,6 +103,7 @@ streamlit run app.py
 - `database.py`: SQLite database functions
 - `pdf_report.py`: PDF export
 - `requirements.txt`: required Python packages
+- `screenshots/`: application screenshots used in this README
 - `news_analysis.db`: created automatically at runtime
 
 ## Scoring rules
